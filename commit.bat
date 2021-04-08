@@ -1,3 +1,3 @@
 git add *
-git commit -m "Update video_changelogs.json"
+git commit -m "Update dev, dev"
 git push origin master
