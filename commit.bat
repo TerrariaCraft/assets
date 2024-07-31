@@ -1,3 +1,3 @@
 git add *
-git commit -m "Update 12.6-1, dev"
+git commit -m "Update dev, dev"
 git push origin master
