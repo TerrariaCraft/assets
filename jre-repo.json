@@ -1,0 +1,83 @@
+{
+	"1.8": {
+		"subdir": "jre-1.8",
+		"platforms": [
+			{
+				"exe": "bin/TerrariaCraft.exe",
+				"platform": {
+					"type": "windows",
+					"insn": "^(x86|x86_64)$"
+				},
+				"zip": {
+					"url": "https://github.com/TerrariaCraft/Launcher/releases/download/23.10.21.2/jre-x64_windows.zip",
+					"sha1": "ca2e25378bb60bda06dd420129673fc3b13444ae",
+					"size": 84185052
+				}
+			},
+			{
+				"exe": "bin/java",
+				"platform": {
+					"type": "unix",
+					"insn": "^(x86|x86_64)$"
+				},
+				"zip": {
+					"url": "https://github.com/TerrariaCraft/Launcher/releases/download/23.10.21.2/jre-x64_linux.zip",
+					"sha1": "833337cd13c5da91a00dfe3198bc4e991e24c78",
+					"size": 89702144
+				}
+			},
+			{
+				"exe": "bin/java",
+				"platform": {
+					"type": "macos",
+					"insn": ".+"
+				},
+				"zip": {
+					"url": "https://github.com/TerrariaCraft/Launcher/releases/download/23.10.21.2/jre-x64_macosx.zip",
+					"sha1": "8119be7ccdcc239c79f51fe81221c7ad4b6fcf71",
+					"size": 77005636
+				}
+			}
+		]
+	},
+	"21": {
+		"platforms": [
+			{
+				"exe": "jdk-21.0.4+7/bin/java.exe",
+				"platform": {
+					"type": "windows",
+					"insn": "^(x86|x86_64)$"
+				},
+				"zip": {
+					"url": "https://github.com/TerrariaCraft/Launcher/releases/download/23.10.21.2/jdk-x64_windows_21.0.4_7.zip",
+					"sha1": "562b0aa5949f420fd8ebe1e1be5ffbc51d7412b6",
+					"size": 203910854
+				}
+			},
+			{
+				"exe": "jdk-21.0.4+7/bin/java",
+				"platform": {
+					"type": "unix",
+					"insn": "^(x86|x86_64)$"
+				},
+				"zip": {
+					"url": "https://github.com/TerrariaCraft/Launcher/releases/download/23.10.21.2/jdk-x64_linux_21.0.4_7.zip",
+					"sha1": "c5518b5c778705b0818009e285ae7223f825f65e",
+					"size": 211779343
+				}
+			},
+			{
+				"exe": "jdk-21.0.4+7/bin/java",
+				"platform": {
+					"type": "macos",
+					"insn": ".+"
+				},
+				"zip": {
+					"url": "https://github.com/TerrariaCraft/Launcher/releases/download/23.10.21.2/jdk-x64_macos_21.0.4_7.zip",
+					"sha1": "3c9a7eaa2be3216b3b4ab94da818c5b9f2354ae0",
+					"size": 198908457
+				}
+			}
+		]
+	}
+}
