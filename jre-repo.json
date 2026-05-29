@@ -27,7 +27,7 @@
 				}
 			},
 			{
-				"exe": "bin/java",
+				"exe": "Home/bin/java",
 				"platform": {
 					"type": "macos",
 					"insn": ".+"
@@ -67,7 +67,7 @@
 				}
 			},
 			{
-				"exe": "jdk-21.0.4+7/bin/java",
+				"exe": "jdk-21.0.4+7/Contents/Home/bin/java",
 				"platform": {
 					"type": "macos",
 					"insn": ".+"
