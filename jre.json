@@ -1,0 +1,50 @@
+{
+	"platforms": [
+		{
+			"exe": "bin/TerrariaCraft.exe",
+			"platform": {
+				"type": "windows",
+				"insn": "^(x86|x86_64)$"
+			},
+			"zip": {
+				"url": "https://github.com/TerrariaCraft/Launcher/releases/download/23.10.21.2/jre-x64_windows.zip",
+				"sha1": "ca2e25378bb60bda06dd420129673fc3b13444ae",
+				"size": 84185052
+			},
+			"unzip": {
+				"sha1": "8bcebd067e7f824180796de9be9e6c81cbf4bd67",
+				"size": 226917996
+			}
+		},
+		{
+			"exe": "bin/java",
+			"platform": {
+				"type": "unix",
+				"insn": "^(x86|x86_64)$"
+			},
+			"zip": {
+				"url": "https://github.com/TerrariaCraft/Launcher/releases/download/23.10.21.2/jre-x64_linux.zip",
+				"sha1": "833337cd13c5da91a00dfe3198bc4e991e24c78",
+				"size": 89702144
+			},
+			"unzip": {
+				"sha1": "01f08506e0064a5aac12191df4be541e3a8616bb"
+			}
+		},
+		{
+			"exe": "bin/java",
+			"platform": {
+				"type": "macos",
+				"insn": ".+"
+			},
+			"zip": {
+				"url": "https://github.com/TerrariaCraft/Launcher/releases/download/23.10.21.2/jre-x64_macosx.zip",
+				"sha1": "8119be7ccdcc239c79f51fe81221c7ad4b6fcf71",
+				"size": 77005636
+			},
+			"unzip": {
+				"sha1": "da758ce2cdb6ceec430a3a88ddd3b7907dfd553f"
+			}
+		}
+	]
+}

@@ -1,0 +1,158 @@
+{
+	"1.8": {
+		"subdir": "jre-1.8",
+		"platforms": [
+			{
+				"exe": "bin/TerrariaCraft.exe",
+				"files": 284,
+				"platform": {
+					"type": "windows",
+					"insn": "^(x86|x86_64)$"
+				},
+				"zip": {
+					"url": "https://github.com/TerrariaCraft/Launcher/releases/download/23.10.21.2/jre-x64_windows.zip",
+					"sha1": "ca2e25378bb60bda06dd420129673fc3b13444ae",
+					"size": 84185052
+				}
+			},
+			{
+				"exe": "bin/java",
+				"files": 346,
+				"platform": {
+					"type": "unix",
+					"insn": "^(x86|x86_64)$"
+				},
+				"zip": {
+					"url": "https://github.com/TerrariaCraft/Launcher/releases/download/23.10.21.2/jre-x64_linux.zip",
+					"sha1": "833337cd13c5da91a00dfe3198bc4e991e24c78",
+					"size": 89702144
+				}
+			},
+			{
+				"exe": "Home/bin/java",
+				"files": 222,
+				"platform": {
+					"type": "macos",
+					"insn": ".+"
+				},
+				"zip": {
+					"url": "https://github.com/TerrariaCraft/Launcher/releases/download/23.10.21.2/jre-x64_macosx.zip",
+					"sha1": "8119be7ccdcc239c79f51fe81221c7ad4b6fcf71",
+					"size": 77005636
+				}
+			}
+		]
+	},
+	"21": {
+		"platforms": [
+			{
+				"exe": "jdk-21.0.4+7/bin/java.exe",
+				"files": 487,
+				"platform": {
+					"type": "windows",
+					"insn": "^(x86|x86_64)$"
+				},
+				"zip": {
+					"url": "https://github.com/TerrariaCraft/Launcher/releases/download/23.10.21.2/jdk-x64_windows_21.0.4_7.zip",
+					"sha1": "562b0aa5949f420fd8ebe1e1be5ffbc51d7412b6",
+					"size": 203910854
+				}
+			},
+			{
+				"exe": "jdk-21.0.10+7/bin/java",
+				"files": 449,
+				"platform": {
+					"type": "unix",
+					"insn": "^(x86|x86_64)$"
+				},
+				"zip": {
+					"url": "https://github.com/TerrariaCraft/Launcher/releases/download/23.10.21.2/jdk-x64_linux_21.0.10_7.zip",
+					"sha1": "f78973805ecd21ee395ccc14c974cdc598077477",
+					"size": 203534137
+				}
+			},
+			{
+				"exe": "jdk-21.0.4+7/Contents/Home/bin/java",
+				"files": 457,
+				"platform": {
+					"type": "macos",
+					"insn": ".+"
+				},
+				"zip": {
+					"url": "https://github.com/TerrariaCraft/Launcher/releases/download/23.10.21.2/jdk-x64_macos_21.0.4_7.zip",
+					"sha1": "3c9a7eaa2be3216b3b4ab94da818c5b9f2354ae0",
+					"size": 198908457
+				}
+			}
+		]
+	},
+	"25": {
+		"platforms": [
+			{
+				"exe": "jdk-25.0.3+9/bin/java.exe",
+				"files": 431,
+				"platform": {
+					"type": "windows",
+					"insn": "^(x86|x86_64)$"
+				},
+				"zip": {
+					"url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3+9/OpenJDK25U-jdk_x64_windows_hotspot_25.0.3_9.zip",
+					"sha1": "bed773cf405bece85ea80a946033eb296bda2f41",
+					"size": 141131903
+				}
+			},
+			{
+				"exe": "jdk-25.0.3+9/bin/java",
+				"files": 399,
+				"platform": {
+					"type": "unix",
+					"insn": "^(x86|x86_64)$"
+				},
+				"tar.gz": {
+					"url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3+9/OpenJDK25U-jdk_x64_linux_hotspot_25.0.3_9.tar.gz",
+					"sha1": "5c81dbf5c68ca14d73c019c1f67573ac6d016e54",
+					"size": 141282180
+				}
+			},
+			{
+				"exe": "jdk-25.0.3+9/bin/java",
+				"files": 398,
+				"platform": {
+					"type": "unix",
+					"insn": "^arm_64$"
+				},
+				"tar.gz": {
+					"url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3+9/OpenJDK25U-jdk_aarch64_linux_hotspot_25.0.3_9.tar.gz",
+					"sha256": "3e4287cb98870ba824ed698854bdc27cff984254caf66dd12cc291e7bfdde26b",
+					"size": 140130864
+				}
+			},
+			{
+				"exe": "jdk-25.0.3+9/Contents/Home/bin/java",
+				"files": 398,
+				"platform": {
+					"type": "macos",
+					"insn": "^(x86|x86_64)$"
+				},
+				"tar.gz": {
+					"url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3+9/OpenJDK25U-jdk_x64_mac_hotspot_25.0.3_9.tar.gz",
+					"sha256": "4c539a18b4d656960ff6766727e9ca546fc17f7a29714dba9e7b47bdcb37c447",
+					"size": 120533867
+				}
+			},
+			{
+				"exe": "jdk-25.0.3+9/Contents/Home/bin/java",
+				"files": 403,
+				"platform": {
+					"type": "macos",
+					"insn": "^arm_64$"
+				},
+				"tar.gz": {
+					"url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3+9/OpenJDK25U-jdk_aarch64_mac_hotspot_25.0.3_9.tar.gz",
+					"sha1": "428c82b8e226bba0280eff256ef4ee6ae9cb67d8",
+					"size": 136601548
+				}
+			}
+		]
+	}
+}
